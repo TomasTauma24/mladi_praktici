@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mladí Praktici</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -26,53 +28,68 @@
 
     <main>
         <section class="content">
-        <div class="hero">
-            <h1>Všeobecné praktické lékařství staví na budování vztahu s pacientem. Často ale bývá terčem předsudků.</h1>
-            <img src="/images/smiley-covid-recovery-center-female-doctor-checking-elder-patient-s-blood-pressure1.png" alt="Doctor with patient">
-        </div>
-        
-        
+            <div class="hero">
+                <h1>Všeobecné praktické lékařství staví na budování vztahu s pacientem. Často ale bývá terčem předsudků.
+                </h1>
+                <img src="/images/smiley-covid-recovery-center-female-doctor-checking-elder-patient-s-blood-pressure1.png"
+                    alt="Doctor with patient">
+            </div>
+
+
             <h2>Praktičtí lékaři plní důležitou roli pacientova průvodce</h2>
             <div class="cards">
-                <div class="card">
-                    <Image src="/images/heart.png"></Image>
+                <div class="cardup">
+                    <Image src="/images/serce.svg"></Image>
                     <h3>O člověka je potřeba pečovat komplexně</h3>
-                    <p>Všeobecné praktické lékařství je otevřeno všem kategoriím problémů, které souvisejí jak s vnitřní pohodou tak i tělesným zdravím pacientů.</p>
+                    <p>Všeobecné praktické lékařství je otevřeno všem kategoriím problémů, které souvisejí jak s vnitřní
+                        pohodou tak i tělesným zdravím pacientů.</p>
                 </div>
-                <div class="card">
-                    <Image src="/images/door.png"></Image>
+                <div class="cardup">
+                    <Image src="/images/dvere.svg"></Image>
                     <h3>Ordinace praktika je vstupní bránou pacienta do zdravotní péče</h3>
-                    <p>Praktičtí lékaři tvoří první kontakt se zdravotním systémem a jsou v něm důvěrnými průvodci. Díky dnešním možnostem
-                        diagnostikovat potíže včas také zabraňují přetížení ambulantních specialistů a nemocniční péče.</p>
+                    <p>Praktičtí lékaři tvoří první kontakt se zdravotním systémem a jsou v něm důvěrnými průvodci. Díky
+                        dnešním možnostem
+                        diagnostikovat potíže včas také zabraňují přetížení ambulantních specialistů a nemocniční péče.
+                    </p>
                 </div>
-                <div class="card">
-                    <Image src="/images/big_eye.png"></Image>
-    <Image src="/images/eye.png"></Image>
+                <div class="cardup">
+                    <Image src="/images/oko.svg"></Image>
                     <h3>Léčbě má vždy předcházet prevence</h3>
-                    <p>VPL se zejména snaží nemocem předcházet, případně je včas rozpoznat a začít co nejdříve řešit.</p>
+                    <p>VPL se zejména snaží nemocem předcházet, případně je včas rozpoznat a začít co nejdříve řešit.
+                    </p>
                 </div>
-mladi_praktici_skuskaAI            </div>
+            </div>
         </section>
         <section class="statistics">
-            <h2>Díky své pestrosti je VPL oborem s nejmenším počtem lékařů pociťujících vyhoření</h2>
-            <p>VPL je nejčastější volbou rekvalifikantů. Je však potřeba posílit praktiky v regionech.</p>
+            <h2 class="chapter">Díky své pestrosti je VPL oborem s nejmenším počtem lékařů pociťujících vyhoření</h2>
+            <p class="chapter">VPL je nejčastější volbou rekvalifikantů. Je však potřeba posílit praktiky v regionech.
+            </p>
             <div class="profiles">
                 <div class="profile">
                     <img src="/images/milos_hlavaty.png" alt="MUDr. Libor Hlaváč">
-                    <h3>MUDr. Libor Hlavatý</h3>
-                    <i>“Praktickým lékařem jsem se stal, protože jsem chtěl být svým vlastním pánem, mít jistý druh svobody v pracovním
-                        procesu. Můžu se také setkat s obrovskou pestrostí klinických případů a mám možnost si prohlubovat vzdělání
-                        prakticky v jakémkoliv oboru medicíny.”</i>
+                    <div class="card">
+                        <h3 class="bluetext">MUDr. Libor Hlavatý</h3>
+                        <i class="bluetext">“Praktickým lékařem jsem se stal, protože jsem chtěl být svým vlastním
+                            pánem, mít jistý druh svobody v pracovním
+                            procesu. Můžu se také setkat s obrovskou pestrostí klinických případů a mám možnost si
+                            prohlubovat vzdělání
+                            prakticky v jakémkoliv oboru medicíny.”</i>
+                    </div>
                 </div>
                 <div class="profile">
                     <img src="/images/olena_bryzhko.png" alt="MUDr. Olena Brynčak">
-                    <h3>MUDr. Olena Bryzhko</h3>
-                    <i>“Na praktickém lékařství se mi líbí, že nikdy netušíte kdo a s čím přijde, nikdy se nenudíte. Je to obor, ve kterém
-                        se setkáte se vším a mnohdy vůbec poprvé. Další výhodou je, že můžete dělat praktika ve velkém městě i v malé
-                        vesničce. Můžete si sami rozhodnout, co chcete dělat - škála možností je hodně široká.”</i>
+                    <div class="card">
+                        <h3 class="bluetext">MUDr. Olena Bryzhko</h3>
+                        <i class="bluetext">“Na praktickém lékařství se mi líbí, že nikdy netušíte kdo a s čím přijde,
+                            nikdy se nenudíte. Je to obor, ve kterém
+                            se setkáte se vším a mnohdy vůbec poprvé. Další výhodou je, že můžete dělat praktika ve
+                            velkém městě i v malé
+                            vesničce. Můžete si sami rozhodnout, co chcete dělat - škála možností je hodně široká.”</i>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 </body>
+
 </html>

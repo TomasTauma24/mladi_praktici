@@ -90,10 +90,18 @@ height: 1434px;
 }
 
 .card {
+ position: absolute;
+width: 439px;
+height: 170px;
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.cardup {
     background: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     width: 30%;
 }
 
@@ -145,11 +153,13 @@ footer {
     padding: 20px 0;
 }
 
-.rectangle501 {
-    position: absolute;
-    width: 539px;
-    height: 310px;
-    background: #FFFFFF;
-    border-radius: 10px;
+.bluetext {
+color: #0D1A3C;
+margin:auto;
+width: 50%;
+padding: 10px;
+}
 
+.chapter {
+color: #0D1A3C;
 }
