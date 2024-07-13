@@ -10,9 +10,11 @@
 
 <body>
     <header>
-        <div class="container">
-            <Image class="vector"; src="/images/heart.svg"></Image>
+        <div class="containerup">
+        <Image class="vector" ; src="/images/heart.svg"></Image>
             <div class="logo">MLADÍ PRAKTICI</div>
+        </div>
+        <div class="container">
             <nav>
                 <ul>
                     <li><a href="#">Jak se stát praktickým lékařem</a></li>
@@ -29,33 +31,36 @@
     <main>
         <section class="content">
             <div class="hero">
-                <h1 class="blue">Všeobecné praktické lékařství staví na budování vztahu s pacientem. Často ale bývá terčem předsudků.
+                <h1 class="blue">Všeobecné praktické lékařství staví na budování vztahu s pacientem. Často ale bývá
+                    terčem předsudků.
                 </h1>
                 <img src="/images/smiley-covid-recovery-center-female-doctor-checking-elder-patient-s-blood-pressure1.png"
-                    alt="Doctor with patient">
+                    alt="Doctor with patient" width="1320" height="1000">
             </div>
 
 
             <h2 class="blue">Praktičtí lékaři plní důležitou roli pacientova průvodce</h2>
             <div class="cards">
                 <div class="cardup">
-                    <Image class="vector"; src="/images/serce.svg"></Image>
+                    <Image class="vector" ; src="/images/serce.svg"></Image>
                     <h3 class="blue">O člověka je potřeba pečovat komplexně</h3>
-                    <p class="blue">Všeobecné praktické lékařství je otevřeno všem kategoriím problémů, které souvisejí jak s vnitřní
+                    <p class="blue">Všeobecné praktické lékařství je otevřeno všem kategoriím problémů, které souvisejí
+                        jak s vnitřní
                         pohodou tak i tělesným zdravím pacientů.</p>
                 </div>
                 <div class="cardup">
-                    <Image class="vector"; src="/images/dvere.svg"></Image>
+                    <Image class="vector" ; src="/images/dvere.svg"></Image>
                     <h3 class="blue">Ordinace praktika je vstupní bránou pacienta do zdravotní péče</h3>
-                    <p class="blue">Praktičtí lékaři tvoří první kontakt se zdravotním systémem a jsou v něm důvěrnými průvodci. Díky
-                        dnešním možnostem
-                        diagnostikovat potíže včas také zabraňují přetížení ambulantních specialistů a nemocniční péče.
+                    <p class="blue">Praktičtí lékaři tvoří první kontakt se zdravotním systémem a jsou v něm důvěrnými
+                        průvodci. Díky dnešním možnostem diagnostikovat potíže včas také zabraňují přetížení
+                        ambulantních specialistů a nemocniční péče.
                     </p>
                 </div>
                 <div class="cardup">
-                    <Image class="vector"; src="/images/oko.svg"></Image>
+                    <Image class="vector" ; src="/images/oko.svg"></Image>
                     <h3 class="blue">Léčbě má vždy předcházet prevence</h3>
-                    <p class="blue">VPL se zejména snaží nemocem předcházet, případně je včas rozpoznat a začít co nejdříve řešit.
+                    <p class="blue">VPL se zejména snaží nemocem předcházet, případně je včas rozpoznat a začít co
+                        nejdříve řešit.
                     </p>
                 </div>
             </div>
@@ -80,11 +85,13 @@
                     <img src="/images/olena_bryzhko.png" alt="MUDr. Olena Brynčak">
                     <div class="card">
                         <h3 class="bluetext">MUDr. Olena Bryzhko</h3>
-                        <i class="bluetext">“Na praktickém lékařství se mi líbí, že nikdy netušíte kdo a s čím přijde,
+                        <i class="bluetext">“Na praktickém lékařství se mi líbí, že nikdy netušíte kdo a s čím
+                            přijde,
                             nikdy se nenudíte. Je to obor, ve kterém
                             se setkáte se vším a mnohdy vůbec poprvé. Další výhodou je, že můžete dělat praktika ve
                             velkém městě i v malé
-                            vesničce. Můžete si sami rozhodnout, co chcete dělat - škála možností je hodně široká.”</i>
+                            vesničce. Můžete si sami rozhodnout, co chcete dělat - škála možností je hodně
+                            široká.”</i>
                     </div>
                 </div>
             </div>

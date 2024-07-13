@@ -5,15 +5,27 @@ body {
     box-sizing: border-box;
 }
 
+.containerup {
+    display: flex; 
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
 .container {
+    display: inline-flex; 
+    justify-content: flex-end;
+
+    /*
+    display: inline-flex;
     width: 90%;
     margin: 0 auto;
+    */
 }
 
 header {
     background: #f8f9fa;
     padding: 10px 0;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #f8f9fa;
 }
 
 header .container {
@@ -36,13 +48,14 @@ header .container {
 }
 
 nav ul {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
     list-style-type: disc;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    padding-inline-start: 60px;
     unicode-bidi: isolate;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -50,14 +63,18 @@ nav ul {
     margin: 0;
     padding: 0;
     top: 0;
-    text-align: left;
+    text-align: right;
     height: 100%;
     color: #204058;
+    border-top: 1px solid #204058;
+    border-bottom: 1px solid #204058;
+
 }
 
 nav ul {
     list-style: none;
-    margin: 0;
+    margin-left: 100px;
+    margin-right: 0px;
     padding: 0;
     display: flex;
     text-align: right;
@@ -98,8 +115,7 @@ nav ul li a {
 }
 
 .content {
-    text-align: center;
-    padding: 50px 0;
+    padding: 50px;
     background: #f8f9fa;
     position: relative;
     width: 1440px;
@@ -115,15 +131,18 @@ nav ul li a {
 
 .cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: stretch;
+    margin: 5px;
 }
 
 .card {
     position: absolute;
     width: 439px;
-    height: 170px;
+    height: 230px;
     background: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 0px;
+    padding-inline: 30px;
 }
 
 .cardup {
@@ -131,6 +150,7 @@ nav ul li a {
     padding: 10px;
     border-radius: 8px;
     width: 20%;
+    justify-content: flex-start;
 }
 
 .card h3 {
@@ -158,12 +178,15 @@ nav ul li a {
 
 .profiles {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+
 }
 
 .profile {
     width: 30%;
-    text-align: center;
+    text-align: left;
+    margin: 30px;
+    padding: 50px;
 
 }
 
@@ -183,9 +206,9 @@ footer {
 
 .bluetext {
     color: #0D1A3C;
-    margin: auto;
+    font-size: 17px;
     width: 50%;
-    padding: 10px;
+    padding: 0px;
 }
 
 .blue {
@@ -198,15 +221,23 @@ footer {
 }
 
 h1 {
-width: 800px;
-height: 100px;
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 900;
-font-size: 200px;
-line-height: 30px;
-color: #0D1A3C;
-text-align: left;
-margin-top: -10px;
-margin-left: 60px;
+    width: 800px;
+    height: 100px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 30px;
+    color: #0D1A3C;
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+h2 {
+    
+    text-align: center;
+    font-size: 200px;
+    line-height: 30px;
+    
 }
