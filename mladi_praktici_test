@@ -11,14 +11,14 @@
 <body>
     <header>
         <div class="container">
+            <Image class="vector"; src="/images/heart.svg"></Image>
             <div class="logo">MLADÍ PRAKTICI</div>
             <nav>
                 <ul>
-                    <li><a href="#">O nás</a></li>
-                    <li><a href="#">Základní údaje</a></li>
                     <li><a href="#">Jak se stát praktickým lékařem</a></li>
                     <li><a href="#">Mladí praktici</a></li>
                     <li><a href="#">Akce</a></li>
+                    <li><a href="#">Inzerce</a></li>
                     <li><a href="#">Novinky</a></li>
                     <li><a href="#">Kontakty</a></li>
                 </ul>
@@ -29,40 +29,40 @@
     <main>
         <section class="content">
             <div class="hero">
-                <h1>Všeobecné praktické lékařství staví na budování vztahu s pacientem. Často ale bývá terčem předsudků.
+                <h1 class="blue">Všeobecné praktické lékařství staví na budování vztahu s pacientem. Často ale bývá terčem předsudků.
                 </h1>
                 <img src="/images/smiley-covid-recovery-center-female-doctor-checking-elder-patient-s-blood-pressure1.png"
                     alt="Doctor with patient">
             </div>
 
 
-            <h2>Praktičtí lékaři plní důležitou roli pacientova průvodce</h2>
+            <h2 class="blue">Praktičtí lékaři plní důležitou roli pacientova průvodce</h2>
             <div class="cards">
                 <div class="cardup">
-                    <Image src="/images/serce.svg"></Image>
-                    <h3>O člověka je potřeba pečovat komplexně</h3>
-                    <p>Všeobecné praktické lékařství je otevřeno všem kategoriím problémů, které souvisejí jak s vnitřní
+                    <Image class="vector"; src="/images/serce.svg"></Image>
+                    <h3 class="blue">O člověka je potřeba pečovat komplexně</h3>
+                    <p class="blue">Všeobecné praktické lékařství je otevřeno všem kategoriím problémů, které souvisejí jak s vnitřní
                         pohodou tak i tělesným zdravím pacientů.</p>
                 </div>
                 <div class="cardup">
-                    <Image src="/images/dvere.svg"></Image>
-                    <h3>Ordinace praktika je vstupní bránou pacienta do zdravotní péče</h3>
-                    <p>Praktičtí lékaři tvoří první kontakt se zdravotním systémem a jsou v něm důvěrnými průvodci. Díky
+                    <Image class="vector"; src="/images/dvere.svg"></Image>
+                    <h3 class="blue">Ordinace praktika je vstupní bránou pacienta do zdravotní péče</h3>
+                    <p class="blue">Praktičtí lékaři tvoří první kontakt se zdravotním systémem a jsou v něm důvěrnými průvodci. Díky
                         dnešním možnostem
                         diagnostikovat potíže včas také zabraňují přetížení ambulantních specialistů a nemocniční péče.
                     </p>
                 </div>
                 <div class="cardup">
-                    <Image src="/images/oko.svg"></Image>
-                    <h3>Léčbě má vždy předcházet prevence</h3>
-                    <p>VPL se zejména snaží nemocem předcházet, případně je včas rozpoznat a začít co nejdříve řešit.
+                    <Image class="vector"; src="/images/oko.svg"></Image>
+                    <h3 class="blue">Léčbě má vždy předcházet prevence</h3>
+                    <p class="blue">VPL se zejména snaží nemocem předcházet, případně je včas rozpoznat a začít co nejdříve řešit.
                     </p>
                 </div>
             </div>
         </section>
         <section class="statistics">
-            <h2 class="chapter">Díky své pestrosti je VPL oborem s nejmenším počtem lékařů pociťujících vyhoření</h2>
-            <p class="chapter">VPL je nejčastější volbou rekvalifikantů. Je však potřeba posílit praktiky v regionech.
+            <h2 class="blue">Díky své pestrosti je VPL oborem s nejmenším počtem lékařů pociťujících vyhoření</h2>
+            <p class="blue">VPL je nejčastější volbou rekvalifikantů. Je však potřeba posílit praktiky v regionech.
             </p>
             <div class="profiles">
                 <div class="profile">

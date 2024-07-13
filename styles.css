@@ -23,8 +23,36 @@ header .container {
 }
 
 .logo {
-    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 150%;
     font-weight: bold;
+    color: #0D1A3C;
+    ;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    text-align: left;
+    height: 100%;
+    color: #204058;
 }
 
 nav ul {
@@ -32,6 +60,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    text-align: right;
 }
 
 nav ul li {
@@ -40,7 +69,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #0D1A3C;
 }
 
 .login button {
@@ -71,10 +100,10 @@ nav ul li a {
 .content {
     text-align: center;
     padding: 50px 0;
-    background: #f1f1f1;
-position: relative;
-width: 1440px;
-height: 1434px;
+    background: #f8f9fa;
+    position: relative;
+    width: 1440px;
+    height: 1434px;
 
 
 }
@@ -90,19 +119,18 @@ height: 1434px;
 }
 
 .card {
- position: absolute;
-width: 439px;
-height: 170px;
-background: #FFFFFF;
-border-radius: 10px;
+    position: absolute;
+    width: 439px;
+    height: 170px;
+    background: #FFFFFF;
+    border-radius: 10px;
 }
 
 .cardup {
-    background: white;
-    padding: 20px;
+    background: #f8f9fa;
+    padding: 10px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    width: 30%;
+    width: 20%;
 }
 
 .card h3 {
@@ -154,12 +182,31 @@ footer {
 }
 
 .bluetext {
-color: #0D1A3C;
-margin:auto;
-width: 50%;
-padding: 10px;
+    color: #0D1A3C;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
-.chapter {
+.blue {
+    color: #0D1A3C;
+}
+
+.vector {
+    display: flex;
+    justify-content: left;
+}
+
+h1 {
+width: 800px;
+height: 100px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 200px;
+line-height: 30px;
 color: #0D1A3C;
+text-align: left;
+margin-top: -10px;
+margin-left: 60px;
 }
