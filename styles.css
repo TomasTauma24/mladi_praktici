@@ -14,17 +14,11 @@ body {
 .container {
     display: inline-flex;
     justify-content: flex-end;
-
-    /*
-    display: inline-flex;
-    width: 90%;
-    margin: 0 auto;
-    */
 }
 
 header {
     background: #f8f9fa;
-    padding: 10px 0;
+    padding: 10px;
     border-bottom: 1px solid #f8f9fa;
 }
 
@@ -59,9 +53,9 @@ nav ul {
     unicode-bidi: isolate;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 100%;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     top: 0;
     text-align: right;
     height: 100%;
@@ -73,9 +67,10 @@ nav ul {
 
 nav ul {
     list-style: none;
-    margin-left: 100px;
+    white-space: nowrap;
+    margin-left: 0px;
     margin-right: 0px;
-    padding: 0;
+    padding-left: 700px;
     display: flex;
     text-align: right;
 }
