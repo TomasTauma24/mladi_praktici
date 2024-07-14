@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="containerup">
-        <Image class="vector" ; src="/images/heart.svg"></Image>
+        <Image class="vector"; src="/images/heart.svg"></Image>
             <div class="logo">MLADÍ PRAKTICI</div>
         </div>
         <div class="container">
@@ -71,7 +71,7 @@
             </p>
             <div class="profiles">
                 <div class="profile">
-                    <img src="/images/milos_hlavaty.png" alt="MUDr. Libor Hlaváč">
+                    <img src="/images/milos_hlavaty.png" alt="MUDr. Libor Hlaváč" class="image">
                     <div class="card">
                         <h3 class="bluetext">MUDr. Libor Hlavatý</h3>
                         <i class="bluetext">“Praktickým lékařem jsem se stal, protože jsem chtěl být svým vlastním
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="profile">
-                    <img src="/images/olena_bryzhko.png" alt="MUDr. Olena Brynčak">
+                    <img src="/images/olena_bryzhko.png" alt="MUDr. Olena Brynčak" class="image">
                     <div class="card">
                         <h3 class="bluetext">MUDr. Olena Bryzhko</h3>
                         <i class="bluetext">“Na praktickém lékařství se mi líbí, že nikdy netušíte kdo a s čím
