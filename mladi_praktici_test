@@ -39,7 +39,7 @@
             </div>
 
 
-            <h2 class="blue">Praktičtí lékaři plní důležitou roli pacientova průvodce</h2>
+            <h2 class="blue">Praktičtí lékaři plní důležitou roli <br> pacientova průvodce</h2>
             <div class="cards">
                 <div class="cardup">
                     <Image class="vector" ; src="/images/serce.svg"></Image>
@@ -66,8 +66,8 @@
             </div>
         </section>
         <section class="statistics">
-            <h2 class="blue">Díky své pestrosti je VPL oborem s nejmenším počtem lékařů pociťujících vyhoření</h2>
-            <p class="blue">VPL je nejčastější volbou rekvalifikantů. Je však potřeba posílit praktiky v regionech.
+            <h2 class="blue">Díky své pestrosti je VPL oborem s nejmenším <br> počtem lékařů pociťujících vyhoření</h2>
+            <p class="blue">VPL je nejčastější volbou rekvalifikantů. Je však <br> potřeba posílit praktiky v regionech.
             </p>
             <div class="profiles">
                 <div class="profile">
